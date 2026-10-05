@@ -31,12 +31,3 @@ can_buy(Cost, Colour) :-
     write('With '), write(C2),
     write(' you can purchase the '), write(Colour),
     write(' truck '), write(Model), nl.
-
-% ---------------- TESTS ----------------
-% ?- can_buy(100000, red).
-% ?- can_buy(100000, blue).
-% ?- can_buy(100000, green).
-
-% ---------------- RESULTS (verified in SWI-Prolog) ----------------
-% ?- can_buy(100000, red).
-% With 8000
